@@ -1,15 +1,6 @@
-<table width="100%" style="border-collapse: collapse; border: none; margin-bottom: 20px;">
-  <tr style="border: none;">
-    <!-- Left Column: Portrait Hacker Setup -->
-    <td width="30%" align="center" valign="middle" style="border: none; padding-right: 10px;">
-      <img src="./banner.jpg" width="240" style="border-radius: 12px; border: 2px solid #FF0000; box-shadow: 0 8px 32px rgba(255, 0, 0, 0.35);" alt="Nidhi Singh Portrait" />
-    </td>
-    <!-- Right Column: Live Workstation Console -->
-    <td width="70%" align="center" valign="middle" style="border: none; padding-left: 10px;">
-      <img src="./banner.svg" width="100%" style="border-radius: 12px; border: 2px solid #FF0000; box-shadow: 0 8px 32px rgba(255, 0, 0, 0.35);" alt="Workstation Console" />
-    </td>
-  </tr>
-</table>
+<p align="center" style="margin-bottom: 20px;">
+  <img src="./banner.svg" width="100%" style="border-radius: 12px; border: 2px solid #FF0000; box-shadow: 0 8px 32px rgba(255, 0, 0, 0.35);" alt="Nidhi Singh Workstation Console" />
+</p>
 
 <p align="center" style="margin-top: 15px; margin-bottom: 10px;">
   <a href="https://git.io/typing-svg">
