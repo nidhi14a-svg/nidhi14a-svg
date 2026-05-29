@@ -1,30 +1,34 @@
-<p align="center">
-  <img src="./banner.jpg" width="400" style="border-radius: 12px; border: 2px solid #ff0000; box-shadow: 0 8px 32px rgba(255, 0, 0, 0.25);" alt="Nidhi Singh Banner" />
-</p>
-
-<p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 800; color: #FFFFFF; margin-top: 20px;">
-  Nidhi Singh
-</p>
-
-<p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; color: #FF0000; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">
-  Computer Science Student &bull; Full Stack Developer
-</p>
-
-<p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; color: #808080; max-width: 600px; margin: 0 auto 24px auto; line-height: 1.5;">
-  Building software, dashboards and AI-powered products. Engineering clean, high-performance web applications and designing intuitive product user interfaces.
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/nidhi-singh-807587386" target="_blank" style="text-decoration: none; margin-right: 8px;">
-    <img src="https://img.shields.io/badge/LinkedIn-ef4444?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://leetcode.com/u/hi_java/" target="_blank" style="text-decoration: none; margin-right: 8px;">
-    <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=ef4444" alt="LeetCode" />
-  </a>
-  <a href="mailto:nidhi14a@gmail.com" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Email-ef4444?style=flat-square&logo=gmail&logoColor=black" alt="Email" />
-  </a>
-</p>
+<table width="100%" style="border-collapse: collapse; border: none; margin-bottom: 20px;">
+  <tr style="border: none;">
+    <!-- Left Column: Portrait Banner -->
+    <td width="30%" align="center" valign="middle" style="border: none; padding-right: 15px;">
+      <img src="./banner.jpg" width="220" style="border-radius: 12px; border: 2px solid #FF0000; box-shadow: 0 8px 32px rgba(255, 0, 0, 0.3);" alt="Nidhi Singh Banner" />
+    </td>
+    <!-- Right Column: Hero Intro -->
+    <td width="70%" align="left" valign="middle" style="border: none; padding-left: 15px;">
+      <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 32px; font-weight: 800; color: #FFFFFF; margin: 0 0 10px 0; border-bottom: none; padding-bottom: 0;">
+        Nidhi Singh
+      </h1>
+      <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; color: #FF0000; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 15px 0;">
+        Computer Science Student &bull; Full Stack Developer
+      </p>
+      <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; color: #808080; line-height: 1.6; margin: 0 0 20px 0;">
+        Building software, dashboards and AI-powered products. Engineering clean, high-performance web applications and designing intuitive product user interfaces.
+      </p>
+      <p style="margin: 0;">
+        <a href="https://www.linkedin.com/in/nidhi-singh-807587386" target="_blank" style="text-decoration: none; margin-right: 8px;">
+          <img src="https://img.shields.io/badge/LinkedIn-ef4444?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="https://leetcode.com/u/hi_java/" target="_blank" style="text-decoration: none; margin-right: 8px;">
+          <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=ef4444" alt="LeetCode" />
+        </a>
+        <a href="mailto:nidhi14a@gmail.com" style="text-decoration: none;">
+          <img src="https://img.shields.io/badge/Email-ef4444?style=flat-square&logo=gmail&logoColor=black" alt="Email" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
