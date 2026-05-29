@@ -1,214 +1,155 @@
-# Hi 👋, I'm Nidhi Singh
+# <p align="center"><img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=8B5CF6,6366F1,3B82F6&height=220&section=header&text=Nidhi%20Singh&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Computer%20Science%20Student%20%E2%80%A2%20Full%20Stack%20Developer%20%E2%80%A2%20Problem%20Solver&descSize=18&descAlignY=62" width="100%" alt="Nidhi Singh Banner" /></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&duration=3000&pause=1000&color=6A5ACD&center=true&vCenter=true&width=800&lines=Computer+Science+Student;Full+Stack+Developer;Building+Impactful+Solutions+with+Web+Technologies+%26+AI;Open+Source+Enthusiast;Chess+Player+%7C+Mentor+%7C+Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&height=50&lines=Building+scalable+web+apps;Solving+complex+algorithms;Strategizing+on+the+chessboard" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nidhi14a-svg&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
+  <a href="https://www.linkedin.com/in/nidhi-singh-807587386" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:nidhi14a@gmail.com">
+    <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://leetcode.com/u/hi_java/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-3B82F6?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+  </a>
 </p>
 
----
-
-## 🚀 About Me
-
-🎓 B.E. Computer Science & Engineering Student
-
-🏫 Sir M. Visvesvaraya Institute of Technology (VTU)
-
-📈 CGPA: **9.22**
-
-💻 Passionate about Full Stack Development, Problem Solving and AI-powered Applications
-
-🌱 Currently Learning:
-
-* Advanced Backend Development
-* System Design
-* DSA
-* AI Integration
-
-🎯 Goal:
-
-* Software Engineering Internships
-* Research Opportunities
-* Open Source Contributions
-
----
-
-## 🌐 Connect With Me
-
 <p align="center">
-<a href="mailto:nidhi14a@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/nidhi-singh-807587386">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/nidhi14a-svg">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://leetcode.com/u/hi_java/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
+  <img src="https://komarev.com/ghpvc/?username=nidhi14a-svg&color=8b5cf6&style=flat-square&label=Profile+Views" alt="Visitor Counter" />
 </p>
 
 ---
 
-## 💻 Tech Stack
+### 👤 About Me
+
+I am a highly motivated **Computer Science Engineering** student at **Sir M. Visvesvaraya Institute of Technology (VTU)** with a current CGPA of **9.22**. I specialize in full-stack web development, building efficient APIs, and solving computational problems.
+
+- 🎓 **Education:** Sir M. Visvesvaraya Institute of Technology (VTU)
+- 📈 **Academic Profile:** CGPA 9.22 / 10
+- 💡 **Interests:** Distributed Systems, Full-Stack Architecture, and Competitive Chess
+- 🛠️ **Current Focus:** Deepening my knowledge in **Node.js** and advanced backend design patterns
+
+---
+
+### 💻 Tech Stack & Tools
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,js,html,css,tailwind,python,java,mongodb,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind,js,py,java,fastapi,express,nodejs,mongodb,git,github,vscode,mysql&theme=dark&perline=8" alt="Tech Stack" />
+</p>
+
+#### 🔧 Core Competencies
+* **Languages:** Java, Python, JavaScript, SQL
+* **Frontend:** React.js, Tailwind CSS, Responsive Web Design, HTML5, CSS3
+* **Backend & API:** FastAPI, Express.js (Basics), Node.js (Learning)
+* **Databases & Tools:** MongoDB, Git, GitHub, VS Code
+* **Fundamentals:** Data Structures, Algorithms, Problem Solving
+
+---
+
+### 🚀 Featured Projects
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏥 MediSync</h4>
+      <p>A comprehensive healthcare platform featuring role-based dashboards, appointment booking, medical record management, emergency QR access, insurance claim integration, and AI diagnostics assistance with speech-to-text integration.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+        <img src="https://img.shields.io/badge/AI_Integration-8B5CF6?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📦 Inventory Management System</h4>
+      <p>A robust tracking platform that includes product management, a shopping cart workflow, automated billing generation, and a real-time analytics dashboard for tracking sales performance.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎓 Scholar Connect</h4>
+      <p>A student-centric hub providing access to scholarship programs, curated academic courses, university-level study resources, and detailed college directories.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💼 Personal Portfolio Website</h4>
+      <p>A modern, highly responsive portfolio showcase displaying professional projects, educational credentials, tech stack summaries, and extracurricular milestones.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nidhi14a-svg&theme=dracula&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies" />
 </p>
 
 ---
 
-## 📊 GitHub Analytics
+### 📊 Performance & Statistics
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=dracula&title_color=8b5cf6&icon_color=3b82f6&text_color=ffffff&bg_color=0d1117&hide_border=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nidhi14a-svg&theme=dracula&ring=8b5cf6&fire=8b5cf6&currStreakNum=3b82f6&background=0d1117&hide_border=true" width="48%" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&theme=dracula&title_color=8b5cf6&icon_color=3b82f6&text_color=ffffff&bg_color=0d1117&hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://leetcard.jacoblin.cool/hi_java?theme=dark&font=Outfit" width="48%" alt="LeetCode Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&bg_color=0d1117&color=8b5cf6&line=3b82f6&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </p>
 
 ---
 
-## 🔥 GitHub Streak
+### 🤝 Leadership & Mentorship
 
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=nidhi14a-svg&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-## 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&theme=tokyo-night&hide_border=true"/>
-</p>
+- 🏫 **CSOC Web Development Mentor:** Guided aspiring student developers, reviewed pull requests, assisted with frontend/backend debugging, and ran technical workshops.
+- 💻 **Active Member of CodeShack:** Collaborated on open-source community initiatives, participated in hackathons, and supported technical event execution.
 
 ---
 
-## 🏆 GitHub Trophy Wall
+### ♟️ Beyond Coding
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=nidhi14a-svg&theme=tokyonight&no-frame=true&row=1&column=7"/>
-</p>
+Outside of engineering, I am an avid chess player. I apply the same strategic depth, tactical patience, and forward-thinking logic to software engineering as I do on the chessboard.
 
----
-
-## 💡 Featured Projects
-
-### 🎓 Scholar Connect
-
-A student-centric platform providing access to scholarships, courses, academic resources and college information.
-
-**Tech Stack**
-
-* React.js
-* JavaScript
-* HTML
-* CSS
+- 🏆 **3rd Prize:** Eastern Air Command Chess Championship
+- ♟️ **VTU Chess Selection:** Participated in university-level chess selection tournaments
+- 🤝 **College Chess Team:** Active representative and team member for college events
 
 ---
 
-### 📦 Inventory Management System
+### ⚡ Fun Fact & Quotes
 
-Inventory and billing management platform with analytics dashboard and sales tracking.
+> "Simplicity is the soul of efficiency."
+> — _Austin Freeman_
 
-**Tech Stack**
-
-* React.js
-* Python
-* FastAPI
-* MongoDB
-
----
-
-### 🏥 MediSync
-
-AI-powered healthcare platform with doctor-patient dashboards, emergency QR access, insurance integration and diagnosis assistance.
-
-**Tech Stack**
-
-* React.js
-* Python
-* FastAPI
-* MongoDB
-* AI Integration
-
----
-
-### 🌐 Personal Portfolio Website
-
-Responsive portfolio website showcasing projects, skills and achievements.
-
-**Tech Stack**
-
-* React.js
-* JavaScript
-* HTML
-* CSS
-
----
-
-## ♟ Beyond Coding
-
-🏆 Competitive Chess Player
-
-🥉 3rd Place – Eastern Air Command Chess Championship
-
-♟ College Chess Team Member
-
-🎯 Participated in VTU Selection Events
-
----
-
-## 👨‍🏫 Leadership & Community
-
-### CodeShack
-
-Active Member of Official Technical Club
-
-### CSOC
-
-Mentor for Web Development
-
-Guiding juniors in:
-
-* HTML
-* CSS
-* JavaScript
-* React
+💡 **Fun Fact:** I view programming like chess — both require anticipating five moves ahead, managing resources, and finding the cleanest path to victory!
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=tokyonight" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nidhi14a-svg&theme=tokyonight" height="180"/>
+  Designed with 💜 by Nidhi Singh • © 2026
 </p>
----
-
-## ⚡ Fun Fact
-
-```javascript
-const nidhi = {
-  role: "Computer Science Student",
-  cgpa: 9.22,
-  passions: [
-    "Full Stack Development",
-    "AI Applications",
-    "Problem Solving",
-    "Chess"
-  ],
-  currentMission: "Building impactful projects and preparing for top internships"
-};
-```
-
----
-
-<p align="center">
-  <i>“Code. Learn. Build. Repeat.”</i>
-</p>
-
