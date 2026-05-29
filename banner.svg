@@ -21,17 +21,9 @@
   </defs>
 
   <style>
-    @keyframes glitch-name {
-      0%, 100% { transform: translate(0); text-shadow: 0.5px 0.5px 0.5px rgba(255,0,0,0.5); }
-      20% { transform: translate(-0.5px, 0.5px); text-shadow: -0.5px 0 1px #ff0000; }
-      40% { transform: translate(0.5px, -0.5px); text-shadow: 0.5px 0.5px 2px #ff0000; }
-      60% { transform: translate(-0.5px, -0.5px); text-shadow: -0.5px -0.5px 1px #ff0000; }
-      80% { transform: translate(0.5px, 0.5px); text-shadow: 0.5px -0.5px 2px #ff0000; }
-    }
-    
     @keyframes role-cycle {
-      0%, 25% { opacity: 0; transform: translateY(8px); }
-      3.5%, 21.5% { opacity: 1; transform: translateY(0); }
+      0%, 25% { opacity: 0; }
+      3.5%, 21.5% { opacity: 1; }
       25%, 100% { opacity: 0; }
     }
 
@@ -53,12 +45,11 @@
     }
 
     .text-name {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-size: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 32px;
       font-weight: 900;
       fill: #FFFFFF;
       letter-spacing: 2px;
-      animation: glitch-name 3s infinite linear alternate-reverse;
     }
     
     .role-text {
@@ -118,7 +109,7 @@
     <text class="role-text role-1" x="0" y="0">Computer Science Student</text>
     <text class="role-text role-2" x="0" y="0">Full Stack Developer</text>
     <text class="role-text role-3" x="0" y="0">Chess Strategist</text>
-    <text class="cursor-blink" x="310" y="0" font-family="monospace" font-size="15" fill="#FF0000" font-weight="bold">_</text>
+    <text class="cursor-blink" x="235" y="0" font-family="monospace" font-size="15" fill="#FF0000" font-weight="bold">_</text>
   </g>
 
   <!-- 3. TERMINAL WIDGET: TYPING CODE LINES -->
@@ -194,17 +185,19 @@
   </g>
 
   <!-- 5. FLOATING UPLINK CARD -->
-  <g class="float-card" transform="translate(355, 20)">
-    <!-- Info Card Background -->
-    <rect width="310" height="80" rx="8" fill="#070404" fill-opacity="0.85" stroke="#1F0808" stroke-width="1.5"/>
-    
-    <!-- Glowing green connection dot -->
-    <circle cx="18" cy="22" r="4" fill="#27C93F">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    
-    <text x="30" y="26" font-family="monospace" font-size="11" fill="#FFFFFF" font-weight="bold">SECURE SHELL: ACTIVE</text>
-    <text x="30" y="44" font-family="monospace" font-size="9.5" fill="#808080">CORE_TEMP: 42°C // CPU_LOAD: 21%</text>
-    <text x="30" y="60" font-family="monospace" font-size="9.5" fill="#FF0000">UPLINK: CONNECTED // 94.2 Mb/s</text>
+  <g transform="translate(355, 20)">
+    <g class="float-card">
+      <!-- Info Card Background -->
+      <rect width="310" height="80" rx="8" fill="#070404" fill-opacity="0.85" stroke="#1F0808" stroke-width="1.5"/>
+      
+      <!-- Glowing green connection dot -->
+      <circle cx="18" cy="22" r="4" fill="#27C93F">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      
+      <text x="30" y="26" font-family="monospace" font-size="11" fill="#FFFFFF" font-weight="bold">SECURE SHELL: ACTIVE</text>
+      <text x="30" y="44" font-family="monospace" font-size="9.5" fill="#808080">CORE_TEMP: 42°C // CPU_LOAD: 21%</text>
+      <text x="30" y="60" font-family="monospace" font-size="9.5" fill="#FF0000">UPLINK: CONNECTED // 94.2 Mb/s</text>
+    </g>
   </g>
 </svg>
