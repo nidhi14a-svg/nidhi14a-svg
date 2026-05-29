@@ -1,7 +1,7 @@
-# <p align="center"><img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=8B5CF6,6366F1,3B82F6&height=220&section=header&text=Nidhi%20Singh&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Computer%20Science%20Student%20%E2%80%A2%20Full%20Stack%20Developer%20%E2%80%A2%20Problem%20Solver&descSize=18&descAlignY=62" width="100%" alt="Nidhi Singh Banner" /></p>
+# <p align="center"><img src="./banner.png" width="100%" alt="Nidhi Singh Banner" /></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&height=50&lines=Building+scalable+web+apps;Solving+complex+algorithms;Strategizing+on+the+chessboard" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=24&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&height=50&lines=Full+Stack+Developer;Computer+Science+Student;Strategic+Problem+Solver" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -22,29 +22,29 @@
 
 ---
 
-### 👤 About Me
+### 🌟 About Me
 
-I am a highly motivated **Computer Science Engineering** student at **Sir M. Visvesvaraya Institute of Technology (VTU)** with a current CGPA of **9.22**. I specialize in full-stack web development, building efficient APIs, and solving computational problems.
+I am an ambitious **Computer Science Engineering** student at **Sir M. Visvesvaraya Institute of Technology (VTU)** with a **9.22 CGPA**. I specialize in constructing clean, responsive user interfaces and building high-performance, secure backend APIs.
 
-- 🎓 **Education:** Sir M. Visvesvaraya Institute of Technology (VTU)
-- 📈 **Academic Profile:** CGPA 9.22 / 10
-- 💡 **Interests:** Distributed Systems, Full-Stack Architecture, and Competitive Chess
-- 🛠️ **Current Focus:** Deepening my knowledge in **Node.js** and advanced backend design patterns
+* 🎓 **Education:** Sir M. Visvesvaraya Institute of Technology (VTU)
+* 📊 **Academics:** 9.22 CGPA
+- ⚡ **Fun Fact:** I view programming like chess — both require anticipating five moves ahead, managing resources, and finding the cleanest path to victory.
+* 🛠️ **Current Focus:** Deep-diving into backend scalability, system design, and exploring **Node.js** architectures.
 
 ---
 
-### 💻 Tech Stack & Tools
+### 🛠️ Technical Skill Matrix
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,html,css,tailwind,js,py,java,fastapi,express,nodejs,mongodb,git,github,vscode,mysql&theme=dark&perline=8" alt="Tech Stack" />
 </p>
 
-#### 🔧 Core Competencies
-* **Languages:** Java, Python, JavaScript, SQL
-* **Frontend:** React.js, Tailwind CSS, Responsive Web Design, HTML5, CSS3
-* **Backend & API:** FastAPI, Express.js (Basics), Node.js (Learning)
-* **Databases & Tools:** MongoDB, Git, GitHub, VS Code
-* **Fundamentals:** Data Structures, Algorithms, Problem Solving
+```
+  ├── Frontend: React.js • HTML5 • CSS3 • Tailwind CSS • Responsive Web Design
+  ├── Backend:  Python • FastAPI • Express.js (Basics) • Node.js (Learning)
+  ├── Languages: Java • Python • JavaScript • SQL
+  └── Database:  MongoDB
+```
 
 ---
 
@@ -54,7 +54,7 @@ I am a highly motivated **Computer Science Engineering** student at **Sir M. Vis
   <tr>
     <td width="50%" valign="top">
       <h4>🏥 MediSync</h4>
-      <p>A comprehensive healthcare platform featuring role-based dashboards, appointment booking, medical record management, emergency QR access, insurance claim integration, and AI diagnostics assistance with speech-to-text integration.</p>
+      <p>A next-generation healthcare platform featuring doctor/patient dashboards, automated appointment scheduling, secure medical record management, emergency QR code access, insurance claim integration, and AI diagnostics assistance with speech-to-text integration.</p>
       <p>
         <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -64,7 +64,7 @@ I am a highly motivated **Computer Science Engineering** student at **Sir M. Vis
     </td>
     <td width="50%" valign="top">
       <h4>📦 Inventory Management System</h4>
-      <p>A robust tracking platform that includes product management, a shopping cart workflow, automated billing generation, and a real-time analytics dashboard for tracking sales performance.</p>
+      <p>A full-stack, enterprise-grade inventory tracker equipped with product management workflows, shopping cart validation, billing systems, and a real-time sales analytics dashboard.</p>
       <p>
         <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -75,7 +75,7 @@ I am a highly motivated **Computer Science Engineering** student at **Sir M. Vis
   <tr>
     <td width="50%" valign="top">
       <h4>🎓 Scholar Connect</h4>
-      <p>A student-centric hub providing access to scholarship programs, curated academic courses, university-level study resources, and detailed college directories.</p>
+      <p>A student-centric academic resource portal providing clean access to scholarships, university-level courses, exam study guides, and comprehensive college catalogs.</p>
       <p>
         <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -85,7 +85,7 @@ I am a highly motivated **Computer Science Engineering** student at **Sir M. Vis
     </td>
     <td width="50%" valign="top">
       <h4>💼 Personal Portfolio Website</h4>
-      <p>A modern, highly responsive portfolio showcase displaying professional projects, educational credentials, tech stack summaries, and extracurricular milestones.</p>
+      <p>A sleek, interactive, and responsive portfolio demonstrating projects, professional skills, and academic milestones with premium dark-themed styling.</p>
       <p>
         <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -98,15 +98,28 @@ I am a highly motivated **Computer Science Engineering** student at **Sir M. Vis
 
 ---
 
-### 🏆 GitHub Trophies
+### 🤝 Leadership & Mentorship
+
+- 🏫 **CSOC Web Development Mentor:** Managed curriculum modules, reviewed PRs for student repositories, debugged stack traces, and guided over 50+ students.
+- 💻 **Active Member of CodeShack:** Organized coding challenges, collaborated on campus hackathons, and developed open-source utilities.
+
+---
+
+### ♟️ Beyond Code: Chess & Strategy
+
+I play competitive chess, representing my college team. The strategic calculations and foresight required in chess map directly to how I solve algorithmic challenges and structure clean code.
+
+- 🏆 **3rd Prize:** Eastern Air Command Chess Championship
+- ♟️ **VTU Chess Selection:** Competed in regional selection tournaments
+- 🤝 **College Chess Team:** Core member and strategist
+
+---
+
+### 📊 Real-Time GitHub & LeetCode Performance
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=nidhi14a-svg&theme=dracula&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies" />
 </p>
-
----
-
-### 📊 Performance & Statistics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=dracula&title_color=8b5cf6&icon_color=3b82f6&text_color=ffffff&bg_color=0d1117&hide_border=true" width="48%" alt="GitHub Stats" />
@@ -118,37 +131,23 @@ I am a highly motivated **Computer Science Engineering** student at **Sir M. Vis
   <img src="https://leetcard.jacoblin.cool/hi_java?theme=dark&font=Outfit" width="48%" alt="LeetCode Stats" />
 </p>
 
+#### 📈 Contribution & Activity Velocity
+
+This graph tracks my activity dynamically. When I am committing code regularly, the wave rises; when I take breaks to plan and design, it stabilizes.
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&bg_color=0d1117&color=8b5cf6&line=3b82f6&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </p>
 
----
-
-### 🤝 Leadership & Mentorship
-
-- 🏫 **CSOC Web Development Mentor:** Guided aspiring student developers, reviewed pull requests, assisted with frontend/backend debugging, and ran technical workshops.
-- 💻 **Active Member of CodeShack:** Collaborated on open-source community initiatives, participated in hackathons, and supported technical event execution.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nidhi14a-svg/nidhi14a-svg/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Snake Animation" />
+</p>
 
 ---
 
-### ♟️ Beyond Coding
-
-Outside of engineering, I am an avid chess player. I apply the same strategic depth, tactical patience, and forward-thinking logic to software engineering as I do on the chessboard.
-
-- 🏆 **3rd Prize:** Eastern Air Command Chess Championship
-- ♟️ **VTU Chess Selection:** Participated in university-level chess selection tournaments
-- 🤝 **College Chess Team:** Active representative and team member for college events
-
----
-
-### ⚡ Fun Fact & Quotes
+### 💬 Coding Philosophy
 
 > "Simplicity is the soul of efficiency."
 > — _Austin Freeman_
-
-💡 **Fun Fact:** I view programming like chess — both require anticipating five moves ahead, managing resources, and finding the cleanest path to victory!
-
----
 
 <p align="center">
   Designed with 💜 by Nidhi Singh • © 2026
