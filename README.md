@@ -184,16 +184,10 @@ Guiding juniors in:
 
 ---
 
-## 📚 Current Focus
-
-```text
-DSA                    █████████░ 90%
-Frontend Development   ██████████ 100%
-Backend Development    ███████░░░ 70%
-AI/ML                  ██████░░░░ 60%
-Open Source            ███████░░░ 70%
-```
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=tokyonight" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nidhi14a-svg&theme=tokyonight" height="180"/>
+</p>
 ---
 
 ## ⚡ Fun Fact
