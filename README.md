@@ -49,13 +49,13 @@
     <!-- Stats Card -->
     <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
       <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" width="100%" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-one.vercel.app/api?username=nidhi14a-svg&count_private=true&show_icons=true&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" width="100%" alt="GitHub Stats" />
       </div>
     </td>
     <!-- Streak Card -->
     <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
       <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=nidhi14a-svg&background=000000&fire=ff0000&ring=ff0000&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ff0000&sideLabels=ffffff&hide_border=true" width="100%" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=nidhi14a-svg&count_private=true&background=000000&fire=ff0000&ring=ff0000&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ff0000&sideLabels=ffffff&hide_border=true" width="100%" alt="GitHub Streak" />
       </div>
     </td>
   </tr>
@@ -63,7 +63,7 @@
     <!-- Languages Card -->
     <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
       <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" width="100%" alt="Top Languages" />
+        <img src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=nidhi14a-svg&count_private=true&layout=compact&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" width="100%" alt="Top Languages" />
       </div>
     </td>
     <!-- Activity Graph Card -->
