@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070514"/>
+      <stop offset="50%" stop-color="#0c0a21"/>
+      <stop offset="100%" stop-color="#020205"/>
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glow-purple" cx="85%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-blue" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Knight Fill Gradient -->
+    <linearGradient id="knight-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#311042" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Knight Accent/Border Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Text Color Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg-grad)"/>
+
+  <!-- Radial Glow Accents -->
+  <circle cx="1000" cy="200" r="300" fill="url(#glow-purple)"/>
+  <circle cx="250" cy="150" r="250" fill="url(#glow-blue)"/>
+
+  <!-- Chessboard/Tech Grid Pattern -->
+  <g opacity="0.06">
+    <!-- Horizontal Lines -->
+    <line x1="50" y1="50" x2="1150" y2="50" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="50" y1="100" x2="1150" y2="100" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="50" y1="150" x2="1150" y2="150" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="50" y1="200" x2="1150" y2="200" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="50" y1="250" x2="1150" y2="250" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="50" y1="300" x2="1150" y2="300" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="50" y1="350" x2="1150" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <!-- Vertical Lines -->
+    <line x1="100" y1="50" x2="100" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="200" y1="50" x2="200" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="300" y1="50" x2="300" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="400" y1="50" x2="400" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="500" y1="50" x2="500" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="600" y1="50" x2="600" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="700" y1="50" x2="700" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="800" y1="50" x2="800" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="900" y1="50" x2="900" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="1000" y1="50" x2="1000" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="1100" y1="50" x2="1100" y2="350" stroke="#8b5cf6" stroke-width="1"/>
+  </g>
+
+  <!-- Coding Background Decors -->
+  <g font-family="monospace" font-size="12" fill="#8b5cf6" opacity="0.2">
+    <text x="680" y="80">const play = (board) => {</text>
+    <text x="680" y="100">  // Anticipate 5 moves ahead</text>
+    <text x="680" y="120">  const depth = 5;</text>
+    <text x="680" y="140">  let strategy = search(board, depth);</text>
+    <text x="680" y="160">  return strategy.bestMove;</text>
+    <text x="680" y="180">};</text>
+  </g>
+
+  <!-- Isometric Chess Board Tiles / Staging -->
+  <g opacity="0.3" transform="translate(40, -10)">
+    <polygon points="760,340 830,305 900,340 830,375" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+    <polygon points="900,340 970,305 1040,340 970,375" fill="#2e1a47" stroke="#a855f7" stroke-width="1"/>
+    <polygon points="830,375 900,340 970,375 900,410" fill="#181335" stroke="#3b82f6" stroke-width="1"/>
+  </g>
+
+  <!-- The Geometric Knight Chess Piece -->
+  <g transform="translate(40, -10)">
+    <!-- Base shadow -->
+    <ellipse cx="900" cy="350" rx="90" ry="15" fill="#000000" opacity="0.4" />
+
+    <!-- Knight Body Outline -->
+    <path d="M 830,345 H 970 V 330 H 950 V 310 H 940 L 935,260 L 955,200 L 940,135 L 920,80 L 925,60 L 895,75 L 870,75 L 810,120 L 805,140 L 825,155 L 850,165 L 825,230 Z" 
+          fill="url(#knight-fill)" 
+          stroke="url(#accent-grad)" 
+          stroke-width="3" 
+          stroke-linejoin="round"
+          filter="url(#neon-glow)" />
+
+    <!-- Circuit details / internal geometry lines on the Knight -->
+    <path d="M 850,165 L 875,185 V 240 L 905,270" stroke="#3b82f6" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M 895,75 L 890,110 L 915,140 V 200 L 935,230" stroke="#a855f7" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M 920,80 L 875,120 L 870,150" stroke="#22d3ee" stroke-width="1.5" fill="none" opacity="0.8"/>
+
+    <!-- Glowing Nodes -->
+    <circle cx="875" cy="120" r="4.5" fill="#22d3ee" filter="url(#neon-glow)"/> <!-- Cyber Eye -->
+    <circle cx="890" cy="110" r="3" fill="#a855f7"/>
+    <circle cx="915" cy="140" r="3" fill="#a855f7"/>
+    <circle cx="875" cy="185" r="3" fill="#3b82f6"/>
+    <circle cx="905" cy="270" r="3.5" fill="#3b82f6" filter="url(#neon-glow)"/>
+    <circle cx="935" cy="230" r="3" fill="#a855f7"/>
+  </g>
+
+  <!-- Left Side: Professional Branding -->
+  <g transform="translate(100, 0)">
+    <!-- Tiny UI Editor Tag -->
+    <g transform="translate(0, 70)" opacity="0.8">
+      <rect width="170" height="30" rx="15" fill="#120e2e" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="15" cy="15" r="4" fill="#a855f7" filter="url(#neon-glow)"/>
+      <text x="28" y="19" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a78bfa" letter-spacing="1">SYSTEM.ACTIVE</text>
+    </g>
+
+    <!-- Name Header -->
+    <text x="0" y="165" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="64" font-weight="900" fill="url(#text-grad)" letter-spacing="1">
+      NIDHI SINGH
+    </text>
+
+    <!-- Subtitle / Roles -->
+    <text x="0" y="210" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="700" fill="#9ca3af" letter-spacing="4.5">
+      FULL STACK DEVELOPER • CHESS STRATEGIST
+    </text>
+
+    <!-- Tag/Badges Row -->
+    <g transform="translate(0, 240)">
+      <!-- Badge 1: Frontend -->
+      <g transform="translate(0, 0)">
+        <rect width="105" height="30" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.7"/>
+        <text x="52.5" y="19" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#a5b4fc" text-anchor="middle" letter-spacing="0.5">FRONTEND</text>
+      </g>
+      <!-- Badge 2: Backend -->
+      <g transform="translate(118, 0)">
+        <rect width="105" height="30" rx="6" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.7"/>
+        <text x="52.5" y="19" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#c084fc" text-anchor="middle" letter-spacing="0.5">BACKEND</text>
+      </g>
+      <!-- Badge 3: System Design -->
+      <g transform="translate(236, 0)">
+        <rect width="135" height="30" rx="6" fill="#1e1b4b" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.7"/>
+        <text x="67.5" y="19" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#93c5fd" text-anchor="middle" letter-spacing="0.5">SYSTEM DESIGN</text>
+      </g>
+    </g>
+
+    <!-- Motto / Short Bio Quote -->
+    <text x="0" y="310" font-family="'Outfit', 'Inter', -apple-system, sans-serif" font-size="14" font-style="italic" fill="#6b7280" letter-spacing="0.5">
+      "Programming, like chess, requires anticipating the next five moves ahead."
+    </text>
+  </g>
+
+  <!-- Accent corner decorations -->
+  <path d="M 30,50 L 30,30 L 50,30" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M 1170,50 L 1170,30 L 1150,30" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M 30,350 L 30,370 L 50,370" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M 1170,350 L 1170,370 L 1150,370" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>
