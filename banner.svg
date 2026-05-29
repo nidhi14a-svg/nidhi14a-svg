@@ -198,11 +198,11 @@
       
       <!-- Code lines typing -->
       <g font-family="monospace" font-size="10.5" fill="#cbd5e1" transform="translate(5, 36)">
-        <text x="0" y="0"><tspan fill="#6366f1">import</tspan> { Strategy } <tspan fill="#6366f1">from</tspan> 'chess';</text>
+        <text x="0" y="0"><tspan fill="#6366f1">import</tspan> { AI_Agent } <tspan fill="#6366f1">from</tspan> 'builder';</text>
         <text x="0" y="16"><tspan fill="#6366f1">const</tspan> dev = new Builder({</text>
         <text x="12" y="32">name: <tspan fill="#06b6d4">'Nidhi'</tspan>,</text>
         <text x="12" y="48">skills: [<tspan fill="#06b6d4">'FullStack'</tspan>],</text>
-        <text x="12" y="64">logic: Strategy.CHESS_MIND</text>
+        <text x="12" y="64">logic: Core.AI_POWERED</text>
         <text x="0" y="80">});</text>
         <text x="0" y="96">dev.compile(); <tspan class="code-cursor" fill="#6366f1">|</tspan></text>
       </g>
@@ -238,7 +238,6 @@
   <path d="M 330,360 L 320,440 H 480 L 470,360 Z" fill="#0a0f1d" stroke="#1f2937" stroke-width="2"/>
 
   <!-- CENTRAL REALISTIC HUMAN SILHOUETTE (SOFTWARE BUILDER CREATING) -->
-  <!-- Back-center view of developer sitting in high-end office chair, orchestrating systems -->
   <g transform="translate(400, 480)">
     <!-- Office Chair Headrest -->
     <rect x="-35" y="-120" width="70" height="24" rx="10" fill="#0f172a" stroke="#334155" stroke-width="2.5"/>
@@ -253,7 +252,7 @@
     <path d="M 30,-70 Q 35,20 25,110" fill="none" stroke="#1e293b" stroke-width="1.5"/>
     <path d="M 0,-75 V 120" fill="none" stroke="#1e293b" stroke-width="2"/>
 
-    <!-- Developer/Engineer Silhouette (Sitting in front of the chair, behind headrest) -->
+    <!-- Developer/Engineer Silhouette -->
     <!-- Head/Hair -->
     <path d="M -22,-86 Q -22,-108 0,-108 T 22,-86 Q 25,-75 20,-68 Q 12,-74 0,-74 T -20,-68 Q -25,-75 -22,-86 Z" fill="#020408"/>
     <!-- Neck -->
@@ -322,6 +321,6 @@
   <g class="float-card-c" transform="translate(320, 50)">
     <rect width="160" height="42" rx="21" fill="url(#glass-panel)" stroke="#6366f1" stroke-width="2" filter="url(#laser-glow)"/>
     <circle cx="21" cy="21" r="5" fill="#10B981" filter="url(#laser-glow)"/>
-    <text x="36" y="25" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">STRATEGY ENGINE: ON</text>
+    <text x="36" y="25" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">BUILD ENGINE: ON</text>
   </g>
 </svg>

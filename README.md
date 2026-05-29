@@ -4,10 +4,10 @@
     <td width="55%" valign="middle" style="border: none; padding-right: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
       <h1 style="font-size: 48px; font-weight: 800; margin: 0; color: #FFFFFF; letter-spacing: -1.5px; line-height: 1.1;">Nidhi Singh</h1>
       <p style="font-size: 18px; color: #6366F1; font-weight: 600; margin-top: 12px; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
-        Computer Science Student &bull; Full Stack Developer &bull; Chess Strategist
+        Computer Science Student &bull; Full Stack Developer
       </p>
       <p style="font-size: 16px; color: #94A3B8; line-height: 1.6; margin-bottom: 32px;">
-        Computer Science Engineering Student at Sir MVIT (VTU) with a 9.22 CGPA. Bridging strategic foresight from competitive chess with modern systems development to design resilient, user-centric software.
+        Building software, dashboards and AI-powered products. Engineering clean, high-performance web applications and designing intuitive product user interfaces.
       </p>
       <div>
         <a href="https://www.linkedin.com/in/nidhi-singh-807587386" target="_blank" style="text-decoration: none; margin-right: 8px;">
@@ -34,7 +34,7 @@
 
 * 🎓 **Education:** Sir M. Visvesvaraya Institute of Technology (VTU)
 * 📈 **Academic Excellence:** 9.22 CGPA
-* ♟️ **Core Principle:** Programming, like chess, requires anticipating the next five moves ahead.
+* ⚙️ **Core Principle:** Transitioning abstract ideas into high-performance, production-ready system architectures.
 
 ---
 
