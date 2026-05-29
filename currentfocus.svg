@@ -23,6 +23,15 @@
   </defs>
 
   <style>
+    @keyframes card-pulse {
+      0%, 100% { stroke: #1F2937; }
+      50% { stroke: #6366F1; stroke-opacity: 0.6; }
+    }
+    @keyframes float-pill {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+
     .focus-card-border {
       fill: url(#card-fill);
       stroke: #1F2937;
@@ -31,11 +40,17 @@
       transition: all 0.3s ease;
     }
     .focus-card:hover .focus-card-border {
-      stroke: #6366F1;
+      stroke: #06B6D4;
       stroke-opacity: 0.85;
       fill: #1E293B;
       filter: url(#focus-glow);
     }
+    .active-pulse-1 { animation: card-pulse 4s infinite ease-in-out; }
+    .active-pulse-2 { animation: card-pulse 4s infinite ease-in-out 0.8s; }
+    .active-pulse-3 { animation: card-pulse 4s infinite ease-in-out 1.6s; }
+    .active-pulse-4 { animation: card-pulse 4s infinite ease-in-out 2.4s; }
+    .active-pulse-5 { animation: card-pulse 4s infinite ease-in-out 3.2s; }
+
     .focus-title {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-size: 11px;
@@ -60,42 +75,47 @@
     .focus-card:hover .focus-desc {
       fill: #FFFFFF;
     }
+    .float-item-1 { animation: float-pill 4s infinite ease-in-out; }
+    .float-item-2 { animation: float-pill 4s infinite ease-in-out 0.5s; }
+    .float-item-3 { animation: float-pill 4s infinite ease-in-out 1s; }
+    .float-item-4 { animation: float-pill 4s infinite ease-in-out 1.5s; }
+    .float-item-5 { animation: float-pill 4s infinite ease-in-out 2s; }
   </style>
 
   <!-- Panel Background -->
   <rect width="980" height="140" rx="12" fill="url(#panel-bg)" stroke="#1F2937" stroke-width="1.5"/>
 
   <!-- Card 1: DSA -->
-  <g class="focus-card" transform="translate(15, 20)">
-    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+  <g class="focus-card float-item-1" transform="translate(15, 20)">
+    <rect class="focus-card-border active-pulse-1" width="180" height="100" rx="8"/>
     <text class="focus-title" x="20" y="32">Core</text>
     <text class="focus-desc" x="20" y="65">DSA</text>
   </g>
 
   <!-- Card 2: Full Stack -->
-  <g class="focus-card" transform="translate(205, 20)">
-    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+  <g class="focus-card float-item-2" transform="translate(205, 20)">
+    <rect class="focus-card-border active-pulse-2" width="180" height="100" rx="8"/>
     <text class="focus-title" x="20" y="32">Web</text>
     <text class="focus-desc" x="20" y="65">Full Stack</text>
   </g>
 
   <!-- Card 3: Backend -->
-  <g class="focus-card" transform="translate(395, 20)">
-    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+  <g class="focus-card float-item-3" transform="translate(395, 20)">
+    <rect class="focus-card-border active-pulse-3" width="180" height="100" rx="8"/>
     <text class="focus-title" x="20" y="32">Architecture</text>
     <text class="focus-desc" x="20" y="65">Backend Eng</text>
   </g>
 
   <!-- Card 4: System Design -->
-  <g class="focus-card" transform="translate(585, 20)">
-    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+  <g class="focus-card float-item-4" transform="translate(585, 20)">
+    <rect class="focus-card-border active-pulse-4" width="180" height="100" rx="8"/>
     <text class="focus-title" x="20" y="32">Scaling</text>
     <text class="focus-desc" x="20" y="65">System Design</text>
   </g>
 
   <!-- Card 5: AI Apps -->
-  <g class="focus-card" transform="translate(775, 20)">
-    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+  <g class="focus-card float-item-5" transform="translate(775, 20)">
+    <rect class="focus-card-border active-pulse-5" width="180" height="100" rx="8"/>
     <text class="focus-title" x="20" y="32">Future</text>
     <text class="focus-desc" x="20" y="65">AI Applications</text>
   </g>
