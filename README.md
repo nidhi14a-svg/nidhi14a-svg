@@ -120,13 +120,13 @@ I play competitive chess, representing my college team. The strategic calculatio
 ### 📊 Real-Time GitHub & LeetCode Performance
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nidhi14a-svg&theme=dracula&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies" />
+  <img src="https://gh-trophy.cdnsoft.net/?username=nidhi14a-svg&theme=dracula&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies" />
 </p>
 
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&title_color=c084fc&icon_color=6366f1&text_color=e2e8f0&bg_color=0a051b&hide_border=true" width="100%" alt="GitHub Stats" />
+      <img src="https://github-stats-extended.vercel.app/api?username=nidhi14a-svg&show_icons=true&title_color=c084fc&icon_color=6366f1&text_color=e2e8f0&bg_color=0a051b&hide_border=true" width="100%" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center" valign="top">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=nidhi14a-svg&background=0a051b&fire=c084fc&ring=6366f1&currStreakNum=ffffff&sideNums=e2e8f0&currStreakLabel=c084fc&sideLabels=e2e8f0&hide_border=true" width="100%" alt="GitHub Streak" />
@@ -134,7 +134,7 @@ I play competitive chess, representing my college team. The strategic calculatio
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&title_color=c084fc&icon_color=6366f1&text_color=e2e8f0&bg_color=0a051b&hide_border=true" width="100%" alt="Top Languages" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&title_color=c084fc&icon_color=6366f1&text_color=e2e8f0&bg_color=0a051b&hide_border=true" width="100%" alt="Top Languages" />
     </td>
     <td width="50%" align="center" valign="top">
       <img src="https://leetcard.jacoblin.cool/hi_java?theme=dark&font=Outfit" width="100%" alt="LeetCode Stats" />
