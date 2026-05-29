@@ -83,14 +83,6 @@
 
 ---
 
-### Current Focus
-
-<p align="center">
-  <img src="./currentfocus.svg" width="100%" alt="Current Focus Interactive Panel" />
-</p>
-
----
-
 <p align="center" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; color: #ff0000; letter-spacing: 0.5px; margin-top: 40px; margin-bottom: 20px; font-weight: bold;">
   Code with purpose. Build with strategy.
 </p>
