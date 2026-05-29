@@ -1,7 +1,7 @@
 <table width="100%" style="border-collapse: collapse; border: none; margin-bottom: 30px;">
   <tr style="border: none;">
     <!-- Left Column: Branding -->
-    <td width="50%" valign="middle" style="border: none; padding-right: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    <td width="55%" valign="middle" style="border: none; padding-right: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
       <h1 style="font-size: 48px; font-weight: 800; margin: 0; color: #FFFFFF; letter-spacing: -1.5px; line-height: 1.1;">Nidhi Singh</h1>
       <p style="font-size: 18px; color: #6366F1; font-weight: 600; margin-top: 12px; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
         Computer Science Student &bull; Full Stack Developer &bull; Chess Strategist
@@ -21,8 +21,8 @@
         </a>
       </div>
     </td>
-    <!-- Right Column: Animated Cockpit Illustration -->
-    <td width="50%" align="center" valign="middle" style="border: none;">
+    <!-- Right Column: Premium Animated Cockpit Illustration -->
+    <td width="45%" align="center" valign="middle" style="border: none;">
       <img src="./banner.svg" width="100%" style="border-radius: 8px;" alt="SaaS Workspace Scene" />
     </td>
   </tr>
@@ -40,59 +40,9 @@
 
 ### Tech Stack
 
-<table width="100%" style="border-collapse: collapse; border: none; margin-top: 15px;">
-  <tr style="border: none;">
-    <!-- Frontend -->
-    <td width="20%" valign="top" style="border: none; padding: 4px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 14px; min-height: 170px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
-        <span style="font-size: 11px; font-weight: 700; color: #6366F1; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 12px;">Frontend</span>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">React.js</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">JavaScript</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">HTML5</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">CSS3</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Tailwind</code>
-      </div>
-    </td>
-    <!-- Backend -->
-    <td width="20%" valign="top" style="border: none; padding: 4px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 14px; min-height: 170px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
-        <span style="font-size: 11px; font-weight: 700; color: #06B6D4; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 12px;">Backend</span>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Node.js</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Express.js</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Python</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">FastAPI</code>
-      </div>
-    </td>
-    <!-- Database -->
-    <td width="20%" valign="top" style="border: none; padding: 4px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 14px; min-height: 170px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
-        <span style="font-size: 11px; font-weight: 700; color: #8B5CF6; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 12px;">Database</span>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">MongoDB</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">SQL</code>
-      </div>
-    </td>
-    <!-- Languages -->
-    <td width="20%" valign="top" style="border: none; padding: 4px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 14px; min-height: 170px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
-        <span style="font-size: 11px; font-weight: 700; color: #E2E8F0; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 12px;">Languages</span>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">JavaScript</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Python</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Java</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">SQL</code>
-      </div>
-    </td>
-    <!-- Tools -->
-    <td width="20%" valign="top" style="border: none; padding: 4px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 14px; min-height: 170px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
-        <span style="font-size: 11px; font-weight: 700; color: #10B981; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 12px;">Tools</span>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Git</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">GitHub</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">VS Code</code>
-        <code style="display: block; margin-bottom: 6px; font-size: 12.5px; color: #E2E8F0; background: #1E293B; padding: 3px 6px; border-radius: 4px; width: fit-content;">Vercel</code>
-      </div>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./techstack.svg" width="100%" alt="Tech Stack Interactive Panel" />
+</p>
 
 ---
 
@@ -133,40 +83,9 @@
 
 ### Current Focus
 
-<table width="100%" style="border-collapse: collapse; border: none; margin-top: 15px;">
-  <tr style="border: none;">
-    <td width="20%" style="border: none; padding: 6px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 16px; text-align: center;">
-        <span style="font-size: 11px; font-weight: 700; color: #6366F1; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 6px;">Core</span>
-        <b style="font-size: 14px; color: #E2E8F0;">DSA</b>
-      </div>
-    </td>
-    <td width="20%" style="border: none; padding: 6px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 16px; text-align: center;">
-        <span style="font-size: 11px; font-weight: 700; color: #06B6D4; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 6px;">Web</span>
-        <b style="font-size: 14px; color: #E2E8F0;">Full Stack</b>
-      </div>
-    </td>
-    <td width="20%" style="border: none; padding: 6px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 16px; text-align: center;">
-        <span style="font-size: 11px; font-weight: 700; color: #8B5CF6; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 6px;">Architecture</span>
-        <b style="font-size: 14px; color: #E2E8F0;">Backend</b>
-      </div>
-    </td>
-    <td width="20%" style="border: none; padding: 6px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 16px; text-align: center;">
-        <span style="font-size: 11px; font-weight: 700; color: #A78BFA; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 6px;">Scaling</span>
-        <b style="font-size: 14px; color: #E2E8F0;">System Design</b>
-      </div>
-    </td>
-    <td width="20%" style="border: none; padding: 6px;">
-      <div style="background: #0B0F19; border: 1px solid #1F2937; border-radius: 8px; padding: 16px; text-align: center;">
-        <span style="font-size: 11px; font-weight: 700; color: #10B981; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 6px;">Future</span>
-        <b style="font-size: 14px; color: #E2E8F0;">AI Applications</b>
-      </div>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./currentfocus.svg" width="100%" alt="Current Focus Interactive Panel" />
+</p>
 
 ---
 

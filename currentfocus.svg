@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 140" width="100%" height="100%">
+  <defs>
+    <!-- Background Card Gradient -->
+    <linearGradient id="panel-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#020408" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Card Fill -->
+    <linearGradient id="card-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="focus-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .focus-card-border {
+      fill: url(#card-fill);
+      stroke: #1F2937;
+      stroke-width: 1.5;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .focus-card:hover .focus-card-border {
+      stroke: #6366F1;
+      stroke-opacity: 0.85;
+      fill: #1E293B;
+      filter: url(#focus-glow);
+    }
+    .focus-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      fill: #6366F1;
+      pointer-events: none;
+      transition: fill 0.3s ease;
+    }
+    .focus-card:hover .focus-title {
+      fill: #06B6D4;
+    }
+    .focus-desc {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #E2E8F0;
+      pointer-events: none;
+      transition: fill 0.3s ease;
+    }
+    .focus-card:hover .focus-desc {
+      fill: #FFFFFF;
+    }
+  </style>
+
+  <!-- Panel Background -->
+  <rect width="980" height="140" rx="12" fill="url(#panel-bg)" stroke="#1F2937" stroke-width="1.5"/>
+
+  <!-- Card 1: DSA -->
+  <g class="focus-card" transform="translate(15, 20)">
+    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+    <text class="focus-title" x="20" y="32">Core</text>
+    <text class="focus-desc" x="20" y="65">DSA</text>
+  </g>
+
+  <!-- Card 2: Full Stack -->
+  <g class="focus-card" transform="translate(205, 20)">
+    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+    <text class="focus-title" x="20" y="32">Web</text>
+    <text class="focus-desc" x="20" y="65">Full Stack</text>
+  </g>
+
+  <!-- Card 3: Backend -->
+  <g class="focus-card" transform="translate(395, 20)">
+    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+    <text class="focus-title" x="20" y="32">Architecture</text>
+    <text class="focus-desc" x="20" y="65">Backend Eng</text>
+  </g>
+
+  <!-- Card 4: System Design -->
+  <g class="focus-card" transform="translate(585, 20)">
+    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+    <text class="focus-title" x="20" y="32">Scaling</text>
+    <text class="focus-desc" x="20" y="65">System Design</text>
+  </g>
+
+  <!-- Card 5: AI Apps -->
+  <g class="focus-card" transform="translate(775, 20)">
+    <rect class="focus-card-border" width="180" height="100" rx="8"/>
+    <text class="focus-title" x="20" y="32">Future</text>
+    <text class="focus-desc" x="20" y="65">AI Applications</text>
+  </g>
+</svg>
