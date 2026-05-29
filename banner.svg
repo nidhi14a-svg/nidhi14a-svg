@@ -1,191 +1,264 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="workspace-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="100%" stop-color="#020408"/>
+    <linearGradient id="cyber-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="40%" stop-color="#090d1a"/>
+      <stop offset="100%" stop-color="#020306"/>
     </linearGradient>
 
-    <!-- Glassmorphism Card Gradient -->
-    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85"/>
+    <!-- Card Background (Glassmorphism) -->
+    <linearGradient id="glass-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
     </linearGradient>
 
-    <!-- Glowing Accent Gradients -->
-    <linearGradient id="indigo-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#06B6D4"/>
+    <!-- Glowing Lines Gradients -->
+    <linearGradient id="laser-indigo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
-    <linearGradient id="violet-pink" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#EC4899"/>
+    <linearGradient id="laser-cyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
     </linearGradient>
 
-    <!-- Radial Glows -->
-    <radialGradient id="screen-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    <!-- Spotlights -->
+    <radialGradient id="indigo-spot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan-spot" cx="30%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Glow Filter -->
-    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <!-- Filters for High-Quality Neon Glow -->
+    <filter id="neon-glow-strong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur1"/>
+      <feGaussianBlur stdDeviation="3" result="blur2"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
   <style>
-    @keyframes pulse-screen {
-      0%, 100% { filter: drop-shadow(0 0 1px rgba(99, 102, 241, 0.2)); }
-      50% { filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4)); }
+    @keyframes float-w1 {
+      0%, 100% { transform: translate(50px, 120px) translateY(0px); }
+      50% { transform: translate(50px, 120px) translateY(-10px); }
     }
-    @keyframes float-card-x {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
+    @keyframes float-w2 {
+      0%, 100% { transform: translate(320px, 80px) translateY(0px); }
+      50% { transform: translate(320px, 80px) translateY(-14px); }
+    }
+    @keyframes float-w3 {
+      0%, 100% { transform: translate(220px, 320px) translateY(0px); }
+      50% { transform: translate(220px, 320px) translateY(-8px); }
     }
     @keyframes draw-graph {
-      to { stroke-dashoffset: 0; }
+      0% { stroke-dashoffset: 800; }
+      50% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -800; }
     }
-    @keyframes flow-data {
-      0% { stroke-dashoffset: 24; }
+    @keyframes blink-cursor {
+      50% { opacity: 0; }
+    }
+    @keyframes spin-chart {
+      to { transform: rotate(360deg); }
+    }
+    @keyframes data-stream {
+      0% { stroke-dashoffset: 40; }
       100% { stroke-dashoffset: 0; }
     }
-    @keyframes pulse-node {
-      0%, 100% { transform: scale(1); opacity: 0.7; }
-      50% { transform: scale(1.3); opacity: 1; }
+    @keyframes pulse-light {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.9; }
     }
     @keyframes scale-bar {
       0%, 100% { transform: scaleY(1); }
       50% { transform: scaleY(0.4); }
     }
 
-    .main-monitor {
-      animation: pulse-screen 4s infinite ease-in-out;
+    .f-w1 { animation: float-w1 6s infinite ease-in-out; }
+    .f-w2 { animation: float-w2 7s infinite ease-in-out; }
+    .f-w3 { animation: float-w3 5s infinite ease-in-out; }
+    
+    .animated-graph {
+      stroke-dasharray: 800;
+      stroke-dashoffset: 800;
+      animation: draw-graph 6s infinite linear;
     }
-    .card-float-1 {
-      animation: float-card-x 5s infinite ease-in-out;
+    
+    .cursor {
+      animation: blink-cursor 1s infinite steps(2, start);
     }
-    .card-float-2 {
-      animation: float-card-x 5s infinite ease-in-out 2.5s;
+    
+    .spin-element {
+      transform-origin: 50px 50px;
+      animation: spin-chart 10s infinite linear;
     }
-    .graph-path {
-      stroke-dasharray: 400;
-      stroke-dashoffset: 400;
-      animation: draw-graph 3s forwards cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .stream-line {
+      stroke-dasharray: 8, 8;
+      animation: data-stream 2s infinite linear;
     }
-    .data-flow-line {
-      stroke-dasharray: 6, 6;
-      animation: flow-data 2s infinite linear;
+    
+    .ambient-pulse {
+      animation: pulse-light 4s infinite ease-in-out;
     }
-    .pulse-dot {
-      transform-origin: center;
-      animation: pulse-node 2s infinite ease-in-out;
-    }
-    .bar-anim-1 { transform-origin: 0px 240px; animation: scale-bar 1.8s infinite ease-in-out; }
-    .bar-anim-2 { transform-origin: 0px 240px; animation: scale-bar 2.2s infinite ease-in-out 0.3s; }
-    .bar-anim-3 { transform-origin: 0px 240px; animation: scale-bar 1.5s infinite ease-in-out 0.6s; }
+
+    .bar-grow-1 { transform-origin: 0px 45px; animation: scale-bar 1.5s infinite ease-in-out; }
+    .bar-grow-2 { transform-origin: 0px 45px; animation: scale-bar 2.1s infinite ease-in-out 0.3s; }
+    .bar-grow-3 { transform-origin: 0px 45px; animation: scale-bar 1.7s infinite ease-in-out 0.6s; }
   </style>
 
-  <!-- Background -->
-  <rect width="500" height="500" rx="12" fill="url(#workspace-bg)"/>
+  <!-- Cyber Background -->
+  <rect width="600" height="600" rx="16" fill="url(#cyber-bg)"/>
 
-  <!-- Background Glow -->
-  <circle cx="250" cy="200" r="200" fill="url(#screen-glow)"/>
+  <!-- Ambient Light Spotlights -->
+  <circle cx="300" cy="250" r="280" fill="url(#indigo-spot)"/>
+  <circle cx="150" cy="400" r="250" fill="url(#cyan-spot)"/>
 
-  <!-- Blueprint grid floor -->
-  <g opacity="0.05">
-    <line x1="0" y1="360" x2="500" y2="360" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="0" y1="390" x2="500" y2="390" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="0" y1="420" x2="500" y2="420" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="0" y1="450" x2="500" y2="450" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="50" y1="350" x2="20" y2="480" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="150" y1="350" x2="100" y2="480" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="250" y1="350" x2="250" y2="480" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="350" y1="350" x2="400" y2="480" stroke="#FFFFFF" stroke-width="1.5"/>
-    <line x1="450" y1="350" x2="480" y2="480" stroke="#FFFFFF" stroke-width="1.5"/>
+  <!-- Technical perspective grid line background -->
+  <g opacity="0.08">
+    <line x1="0" y1="450" x2="600" y2="450" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="0" y1="490" x2="600" y2="490" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="0" y1="530" x2="600" y2="530" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="0" y1="570" x2="600" y2="570" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <line x1="100" y1="430" x2="50" y2="600" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="200" y1="430" x2="160" y2="600" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="300" y1="430" x2="300" y2="600" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="400" y1="430" x2="440" y2="600" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="500" y1="430" x2="550" y2="600" stroke="#FFFFFF" stroke-width="1.5"/>
   </g>
 
-  <!-- Developer Desk Setup (Minimalist & Sleek) -->
-  <g class="main-monitor">
-    <!-- Desk surface line -->
-    <line x1="40" y1="360" x2="460" y2="360" stroke="#1E293B" stroke-width="3"/>
+  <!-- Background Data Flow Matrix Lines (SaaS System Architecture Visual) -->
+  <g opacity="0.15">
+    <path d="M 80,100 Q 150,50 300,100 T 520,180" fill="none" stroke="#6366f1" stroke-width="2" />
+    <path class="stream-line" d="M 80,100 Q 150,50 300,100 T 520,180" fill="none" stroke="#06b6d4" stroke-width="2.5" />
     
-    <!-- Monitor Stand -->
-    <path d="M 230,360 L 240,290 H 260 L 270,360 Z" fill="#0F172A" stroke="#1E293B" stroke-width="1.5"/>
-    <rect x="210" y="355" width="80" height="6" rx="3" fill="#1E293B"/>
+    <path d="M 50,380 Q 200,420 350,300 T 550,280" fill="none" stroke="#8b5cf6" stroke-width="2" />
+    <path class="stream-line" d="M 50,380 Q 200,420 350,300 T 550,280" fill="none" stroke="#6366f1" stroke-width="2.5" />
+  </g>
 
-    <!-- Main Workspace Monitor -->
-    <rect x="80" y="100" width="340" height="200" rx="10" fill="#090D16" stroke="#334155" stroke-width="2.5" />
-    <rect x="90" y="110" width="320" height="180" rx="6" fill="#030712" />
+  <!-- Large Ultrawide Main Dashboard Monitor Setup (Stationary base) -->
+  <g transform="translate(110, 180)">
+    <!-- Stand -->
+    <path d="M 160,250 L 170,180 H 210 L 220,250 Z" fill="#0b0f19" stroke="#1e293b" stroke-width="2"/>
+    <rect x="130" y="244" width="120" height="8" rx="4" fill="#1e293b"/>
+    
+    <!-- Curved Main Monitor Bezel -->
+    <rect x="20" y="10" width="340" height="180" rx="12" fill="#090d16" stroke="#334155" stroke-width="3" />
+    <!-- Screen -->
+    <rect x="28" y="18" width="324" height="164" rx="8" fill="#020408" />
 
-    <!-- Mock IDE / Dashboard code header -->
-    <circle cx="105" cy="120" r="3.5" fill="#EF4444"/>
-    <circle cx="115" cy="120" r="3.5" fill="#F59E0B"/>
-    <circle cx="125" cy="120" r="3.5" fill="#10B981"/>
-    <rect x="145" y="116" width="60" height="8" rx="4" fill="#1E293B" opacity="0.6"/>
-
-    <!-- Screen Data Visualization Graph -->
-    <g opacity="0.3">
-      <line x1="120" y1="170" x2="380" y2="170" stroke="#1E293B" stroke-width="1"/>
-      <line x1="120" y1="210" x2="380" y2="210" stroke="#1E293B" stroke-width="1"/>
-      <line x1="120" y1="250" x2="380" y2="250" stroke="#1E293B" stroke-width="1"/>
+    <!-- Dashboard Main Live Line Graph -->
+    <g opacity="0.1">
+      <line x1="40" y1="70" x2="340" y2="70" stroke="#FFFFFF" stroke-width="1"/>
+      <line x1="40" y1="110" x2="340" y2="110" stroke="#FFFFFF" stroke-width="1"/>
+      <line x1="40" y1="150" x2="340" y2="150" stroke="#FFFFFF" stroke-width="1"/>
     </g>
 
-    <!-- Main Screen Graph Line -->
-    <path class="graph-path" d="M 120,250 L 160,200 L 200,230 L 240,160 L 280,185 L 320,130 L 380,150" 
-          fill="none" stroke="url(#indigo-cyan)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Drawing Path Graph -->
+    <path class="animated-graph" d="M 30,160 L 70,130 L 110,145 L 150,90 L 190,110 L 230,60 L 270,80 L 310,40 L 350,55" 
+          fill="none" stroke="url(#laser-indigo)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#neon-glow-strong)" />
     
-    <!-- Pulse target dot on graph -->
-    <circle class="pulse-dot" cx="320" cy="130" r="5" fill="#06B6D4" filter="url(#glow-filter)"/>
+    <!-- Top Bar Metrics -->
+    <rect x="40" y="28" width="50" height="6" rx="3" fill="#1e293b" />
+    <rect x="100" y="28" width="40" height="6" rx="3" fill="#6366f1" opacity="0.8" />
+    <rect x="150" y="28" width="60" height="6" rx="3" fill="#1e293b" opacity="0.5" />
   </g>
 
-  <!-- Left Floating Card: UI Component & System Architecture -->
-  <g class="card-float-1" transform="translate(30, 160)">
-    <rect width="120" height="90" rx="8" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#glow-filter)"/>
-    <rect x="10" y="10" width="100" height="6" rx="3" fill="#6366F1" opacity="0.7"/>
-    
-    <!-- Mini Systems Architecture nodes -->
-    <circle cx="35" cy="45" r="5" fill="#6366F1"/>
-    <circle cx="85" cy="35" r="4" fill="#06B6D4"/>
-    <circle cx="85" cy="55" r="4" fill="#8B5CF6"/>
-    
-    <!-- Connection lines -->
-    <line x1="35" y1="45" x2="85" y2="35" stroke="#475569" stroke-width="1"/>
-    <line x1="35" y1="45" x2="85" y2="55" stroke="#475569" stroke-width="1"/>
-    <path class="data-flow-line" d="M 35,45 L 85,35" stroke="#6366F1" stroke-width="1.5" fill="none"/>
-    
-    <rect x="10" y="72" width="60" height="6" rx="3" fill="#475569" opacity="0.5"/>
-    <rect x="85" y="72" width="25" height="6" rx="3" fill="#10B981" opacity="0.8"/>
-  </g>
+  <!-- LAYERED FLOATING WIDGETS (SAAS INTERACTIVE VIBE) -->
 
-  <!-- Right Floating Card: Analytics Bars -->
-  <g class="card-float-2" transform="translate(350, 220)">
-    <rect width="110" height="95" rx="8" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5" filter="url(#glow-filter)"/>
-    <rect x="10" y="10" width="90" height="6" rx="3" fill="#8B5CF6" opacity="0.7"/>
+  <!-- Window 1: IDE Code Editor Window (Left, Floating) -->
+  <g class="f-w1">
+    <rect width="210" height="150" rx="10" fill="url(#glass-card)" stroke="#334155" stroke-width="1.5" filter="url(#neon-glow-strong)"/>
     
-    <!-- Interactive bar chart cards -->
-    <g transform="translate(20, 20)">
-      <!-- Bar 1 -->
-      <rect class="bar-anim-1" x="10" y="10" width="12" height="50" rx="3" fill="#8B5CF6" />
-      <!-- Bar 2 -->
-      <rect class="bar-anim-2" x="32" y="10" width="12" height="50" rx="3" fill="#6366F1" />
-      <!-- Bar 3 -->
-      <rect class="bar-anim-3" x="54" y="10" width="12" height="50" rx="3" fill="#06B6D4" />
+    <!-- Window controls -->
+    <circle cx="15" cy="15" r="4" fill="#EF4444"/>
+    <circle cx="27" cy="15" r="4" fill="#F59E0B"/>
+    <circle cx="39" cy="15" r="4" fill="#10B981"/>
+    <text x="55" y="19" font-family="monospace" font-size="10" fill="#64748b">editor.js</text>
+
+    <!-- Code Block with Typist cursor -->
+    <g font-family="monospace" font-size="11" fill="#e2e8f0" transform="translate(15, 42)">
+      <!-- Line 1 -->
+      <text x="0" y="0"><tspan fill="#6366f1">const</tspan> developer = {</text>
+      <!-- Line 2 -->
+      <text x="15" y="16">name: <tspan fill="#06b6d4">"Nidhi Singh"</tspan>,</text>
+      <!-- Line 3 -->
+      <text x="15" y="32">logic: <tspan fill="#8b5cf6">"Strategy"</tspan>,</text>
+      <!-- Line 4 -->
+      <text x="15" y="48">focus: <tspan fill="#06b6d4">"Scalability"</tspan></text>
+      <!-- Line 5 -->
+      <text x="0" y="64">};</text>
+      <!-- Line 6 -->
+      <text x="0" y="80"><tspan fill="#10b981">compile</tspan>(developer);<tspan class="cursor" fill="#6366f1">|</tspan></text>
     </g>
   </g>
 
-  <!-- Floating Digital Code Packets -->
-  <g opacity="0.3">
-    <circle cx="110" cy="80" r="3" fill="#6366F1"/>
-    <line x1="110" y1="80" x2="160" y2="40" stroke="#6366F1" stroke-width="1" stroke-dasharray="2"/>
-    <circle cx="160" cy="40" r="4" fill="#06B6D4" class="pulse-dot"/>
+  <!-- Window 2: Analytics Dashboard Gauges (Right, Floating) -->
+  <g class="f-w2">
+    <rect width="220" height="170" rx="10" fill="url(#glass-card)" stroke="#334155" stroke-width="1.5" filter="url(#neon-glow-strong)"/>
     
-    <circle cx="380" cy="70" r="2.5" fill="#8B5CF6"/>
-    <line x1="380" y1="70" x2="330" y2="30" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="2"/>
-    <circle cx="330" cy="30" r="3.5" fill="#6366F1"/>
+    <!-- Window Header -->
+    <rect x="15" y="12" width="80" height="8" rx="4" fill="#6366f1" opacity="0.6"/>
+    <circle cx="205" cy="16" r="3" fill="#64748b" />
+    
+    <!-- Custom Radial Speedometer Chart -->
+    <g transform="translate(15, 35)">
+      <!-- Background track -->
+      <circle cx="50" cy="50" r="35" fill="none" stroke="#1e293b" stroke-width="8"/>
+      <!-- Active animated gauge -->
+      <circle class="spin-element" cx="50" cy="50" r="35" fill="none" stroke="url(#laser-cyan)" stroke-dasharray="140, 220" stroke-width="8" stroke-linecap="round" />
+      <text x="50" y="55" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">92%</text>
+      <text x="50" y="98" font-family="sans-serif" font-size="9" fill="#64748b" text-anchor="middle" letter-spacing="0.5">PERFORMANCE</text>
+    </g>
+
+    <!-- Side Chart: Interactive Bar Growth -->
+    <g transform="translate(130, 45)">
+      <rect class="bar-grow-1" x="10" y="10" width="10" height="55" rx="2" fill="#6366f1" />
+      <rect class="bar-grow-2" x="26" y="10" width="10" height="55" rx="2" fill="#8b5cf6" />
+      <rect class="bar-grow-3" x="42" y="10" width="10" height="55" rx="2" fill="#06b6d4" />
+      <text x="26" y="88" font-family="sans-serif" font-size="9" fill="#64748b" text-anchor="middle">GROWTH</text>
+    </g>
+    
+    <!-- Bottom Grid Indicators -->
+    <rect x="15" y="145" width="90" height="6" rx="3" fill="#1e293b" />
+    <rect x="115" y="145" width="90" height="6" rx="3" fill="#1e293b" />
+  </g>
+
+  <!-- Window 3: System Pipeline Node Connects (Center Bottom, Floating) -->
+  <g class="f-w3">
+    <rect width="250" height="90" rx="10" fill="url(#glass-card)" stroke="#334155" stroke-width="1.5" filter="url(#neon-glow-strong)"/>
+    
+    <!-- UI Header -->
+    <circle cx="15" cy="15" r="3.5" fill="#6366f1" />
+    <rect x="28" y="11" width="110" height="8" rx="4" fill="#64748b" opacity="0.5"/>
+
+    <!-- Network connection paths -->
+    <g transform="translate(15, 30)">
+      <circle cx="20" cy="25" r="6" fill="#6366f1" filter="url(#neon-glow-strong)"/>
+      <circle cx="100" cy="25" r="6" fill="#06b6d4" filter="url(#neon-glow-strong)"/>
+      <circle cx="180" cy="25" r="6" fill="#8b5cf6" filter="url(#neon-glow-strong)"/>
+      
+      <!-- Connective wires -->
+      <line x1="26" y1="25" x2="94" y2="25" stroke="#334155" stroke-width="2"/>
+      <line x1="106" y1="25" x2="174" y2="25" stroke="#334155" stroke-width="2"/>
+      
+      <!-- Pulsating signals -->
+      <line class="data-flow-line" x1="26" y1="25" x2="94" y2="25" stroke="#6366f1" stroke-width="2" />
+      <line class="data-flow-line" x1="106" y1="25" x2="174" y2="25" stroke="#06b6d4" stroke-width="2" />
+
+      <!-- Text tags below nodes -->
+      <text x="20" y="48" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">INPUT</text>
+      <text x="100" y="48" font-family="monospace" font-size="9" fill="#06b6d4" text-anchor="middle">PROCESS</text>
+      <text x="180" y="48" font-family="monospace" font-size="9" fill="#8b5cf6" text-anchor="middle">SCALE</text>
+    </g>
   </g>
 </svg>

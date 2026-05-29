@@ -1,7 +1,7 @@
 <table width="100%" style="border-collapse: collapse; border: none; margin-bottom: 30px;">
   <tr style="border: none;">
     <!-- Left Column: Branding -->
-    <td width="60%" valign="middle" style="border: none; padding-right: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    <td width="55%" valign="middle" style="border: none; padding-right: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
       <h1 style="font-size: 48px; font-weight: 800; margin: 0; color: #FFFFFF; letter-spacing: -1.5px; line-height: 1.1;">Nidhi Singh</h1>
       <p style="font-size: 18px; color: #6366F1; font-weight: 600; margin-top: 12px; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
         Computer Science Student &bull; Full Stack Developer &bull; Chess Strategist
@@ -21,9 +21,9 @@
         </a>
       </div>
     </td>
-    <!-- Right Column: Premium Illustration -->
-    <td width="40%" align="center" valign="middle" style="border: none;">
-      <img src="./banner.svg" width="100%" style="border-radius: 8px; max-width: 380px;" alt="SaaS Workspace Scene" />
+    <!-- Right Column: Animated Illustration -->
+    <td width="45%" align="center" valign="middle" style="border: none;">
+      <img src="./banner.svg" width="100%" style="border-radius: 8px;" alt="SaaS Workspace Scene" />
     </td>
   </tr>
 </table>
