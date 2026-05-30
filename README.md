@@ -42,7 +42,7 @@
 
 ---
 
-### GitHub Dashboard
+## GitHub Dashboard
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&count_private=true&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true&cache_seconds=1800" />
@@ -54,50 +54,29 @@
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&title_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" />
 </p>
 
+<br>
+
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&bg_color=000000&color=ffffff&line=ff0000&point=ff0000&area=true&hide_border=true" />
 </p>
 
+<br>
 
-<table width="100%" style="border-collapse: collapse; border: none; margin-top: 15px;">
-  <tr style="border: none;">
-    <!-- Stats Card -->
-    <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
-      <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <img src="https://github-readme-stats-one.vercel.app/api?username=nidhi14a-svg&count_private=true&show_icons=true&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" width="100%" alt="GitHub Stats" />
-      </div>
-    </td>
-    <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nidhi14a-svg&theme=github_dark" />
 </p>
-    <!-- Streak Card -->
-    <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
-      <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <p align="center">
-  <img src="https://streak-stats.demolab.com?user=nidhi14a-svg&theme=tokyonight&hide_border=true" />
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nidhi14a-svg&theme=github_dark" />
+
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nidhi14a-svg&theme=github_dark" />
 </p>
-      </div>
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <!-- Languages Card -->
-    <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
-      <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&theme=tokyonight&hide_border=true" />
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nidhi14a-svg&theme=github_dark" />
+
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nidhi14a-svg&theme=github_dark&utcOffset=5.5" />
 </p>
-      </div>
-    </td>
-    <!-- Activity Graph Card -->
-    <td width="50%" align="center" valign="top" style="border: none; padding: 6px;">
-      <div style="background: #000000; border: 1px solid #1F1F1F; border-radius: 8px; padding: 8px;">
-        <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&theme=react-dark&hide_border=true" />
-</p>
-      </div>
-    </td>
-  </tr>
-</table>
 
 ---
 
