@@ -104,3 +104,11 @@
 <p align="center" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; color: #ff0000; letter-spacing: 0.5px; margin-top: 40px; margin-bottom: 20px; font-weight: bold;">
   Code with purpose. Build with strategy.
 </p>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=nidhi14a-svg&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
