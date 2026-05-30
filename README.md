@@ -44,6 +44,21 @@
 
 ### GitHub Dashboard
 
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nidhi14a-svg&show_icons=true&count_private=true&title_color=ff0000&icon_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true&cache_seconds=1800" />
+
+  <img width="49%" src="https://streak-stats.demolab.com?user=nidhi14a-svg&background=000000&ring=ff0000&fire=ff0000&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ff0000&sideLabels=ffffff&dates=808080&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&title_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&bg_color=000000&color=ffffff&line=ff0000&point=ff0000&area=true&hide_border=true" />
+</p>
+
+
 <table width="100%" style="border-collapse: collapse; border: none; margin-top: 15px;">
   <tr style="border: none;">
     <!-- Stats Card -->
