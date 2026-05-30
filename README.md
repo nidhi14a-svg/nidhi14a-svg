@@ -45,11 +45,7 @@
 ## GitHub Dashboard
 
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidhi14a-svg&layout=compact&title_color=ff0000&text_color=ffffff&bg_color=000000&hide_border=true" />
-</p>
 
-<br>
 
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nidhi14a-svg&bg_color=000000&color=ffffff&line=ff0000&point=ff0000&area=true&hide_border=true" />
